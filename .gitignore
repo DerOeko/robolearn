@@ -22,3 +22,4 @@ active_csvs/*
 model_analysis/simulation_log*
 model_analysis/*
 shared.zip
+data/*
