@@ -36,5 +36,5 @@ class Agent(ABC):
         pass
 
     @abstractmethod
-    def reset(self, seed: int, reset_history :bool) -> None:
+    def reset(self, seed: int, reset_history: bool) -> None:
         pass

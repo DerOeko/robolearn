@@ -1,5 +1,5 @@
 import numpy as np
-from numpy import exp, sum
+from numpy import exp
 from typing import Optional
 from numpy.typing import NDArray
 
@@ -22,4 +22,4 @@ def sigmoid(go_value: float, nogo_value: float, temperature: Optional[float] = 1
 
     p1 = 1 / (1 + exp(-scaled_diff))
     p2 = 1 - p1
-    return np.array([p1, p2], dtype=np.float16)
+    return np.array([p1, p2], dtype=np.float64)

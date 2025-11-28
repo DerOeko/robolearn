@@ -66,7 +66,7 @@ def test_action_selection_and_probabilities():
     print(
         f"✓ Probabilities (3 actions) with beta={cfg4.beta}, Qs=[2,1,0]: {probs4}")
 
-    # AAAAAADDDDitional tests below this line
+    # Additional tests below this line
 
     # Test 6: _greedy method
     print("  --- Testing _greedy method ---")
